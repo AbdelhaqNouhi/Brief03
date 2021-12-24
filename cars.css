@@ -24,7 +24,6 @@ nav{
 .logo{
     font-size: 30px;
     letter-spacing: 5px;
-    text-transform: uppercase;
     color: #E5E5E5;
    
 }
@@ -86,7 +85,6 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-   
     padding: 40px;
     border-bottom: 1px solid #14213D;
 }
@@ -201,28 +199,33 @@ nav a:hover{
     transition: all ease;
 }
 .social{
-    position: relative;
     width: 100%;
     height: 200px;
     background: #14213D;
-    min-width: 100px;
     padding: 20px 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    font-size: large;
+    color: #E5E5E5;
 }
-.social ul{
-    position: relative;
+
+.social > ul {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.social > ul  ul {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    align-items: center;
-    margin: 10px 0;
-    padding-left: 200px;
 }
 .social li{
+    margin-top: 20px;
     list-style: none;
-    margin-left: 10px;
+}
+.social ul:nth-child(2) li{
+    text-align: center;
 }
 .social a{
     font-size: 2em;
@@ -231,6 +234,7 @@ nav a:hover{
     margin-right: 10px;
     display: inline-block;
 }
+
 .social a:hover{
     border-bottom: 1px #FCA311 solid;
 }
@@ -277,5 +281,8 @@ nav a:hover{
     .about-text h1{
         font-size: 50px;
         margin-bottom: 2;
+    }
+    .social > ul{
+        font-size: 10px;
     }
 }
