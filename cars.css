@@ -43,7 +43,7 @@ nav{
     letter-spacing: 3px;
 }
 nav a:hover{
-    border-bottom: 1px #FCA311 solid;
+    border-bottom: 2px #FCA311 solid;
 }
 .menu{
     display: none;
@@ -61,7 +61,6 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(
@@ -72,37 +71,24 @@ nav a:hover{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
-        
+    overflow-x: hidden;      
 }
 .title2{
-    color: #E5E5E5;
+    color:#FFFFFF;
     margin-left: 10%;
+}
+.container a{
+    margin-top: 5%;
+    margin-left: 27%;
+    color: #FCA311;
+    font-weight: bold;
+    font-size: 160%;
 }
 
 /* hhhhhhhhhhhhhhhh */
+
+
 .prodact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    border-bottom: 1px solid #14213D;
-}
-.my-prodact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.my-prodact span{
-    color: #14213D;
-}
-.my-prodact h3{
-    font-size: 25px;
-    color: #14213D;
-    font-weight: 600;
-}
-.prodact-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,10 +99,6 @@ nav a:hover{
     width: 350px;
     background-color: #E5E5E5;
     margin: 20px;
-}
-.prodact-img{
-    width: 100%;
-    height: auto;
 }
 .prodact-img img{  
     width: 100%;
@@ -131,6 +113,10 @@ nav a:hover{
 }
 .prodact-text h3{
     color: #14213D;
+}
+.prodact-text p{
+    color: #14213D;
+    font-size: 18px;
 }
 .prodact-text a{
     font-weight: bold;
@@ -153,6 +139,7 @@ nav a:hover{
     height: auto;
     width: 420px;
     max-width: 100%;
+    margin-top: -25px;
 }
 .about-text{
     width: 550px;

@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="Réservation.css">
+        <link rel="stylesheet" href="Réservation.js">
 
 </head>
 
@@ -32,22 +33,31 @@
         </div>
     </nav>
 
-    <section class="about">
-        <div class="main">
-            <img src="pexels-matheus-bertelli-799443.jpg">
-            <div class="about-text">
-                <h1>Contact Us</h1>
-                <p>Vestibulum id est eu felis vulputate hendrerit.
-                    Suspendisse dapibus turpis in dui pulvinar
-                    imperdiet. Nunc consectetu</p>
-                <input class="input" type="name" placeholder="Name">
-                <input class="input" type="email" name="email" id="" placeholder="Email">
-                <textarea class="input text" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+    <div class="Form">     
+            <label>Cars:</label>
+            <select class="S1" id="S1">
+            <option></option>
+            <option value="Moto">Moto</option>
+            <option value="Citadin">Citadin</option>
+            <option value="Compact">Compact</option>
+            <option value="Berline">Berline</option>
+            <option value="Utilitaire">Utilitaire</option>
+            <option value="Engin de Chantier">Engin de Chantier</option>
+            <option value="Camion">Camion</option>
+        </select>
+   
+        <label>Vitaz:</label>
+        <select class="S2" id="S2">
+            <option></option>
+        </select>
+          
+        <label>type:</label>
+        <select class="S3" id="S3">
+            <option></option>
+        </select>
+    
+    </div>
 
-                <a href="#">Send</a>
-            </div>
-        </div>
-    </section>
     <section class="footer">
         <div class="social">
             <ul>
@@ -70,5 +80,4 @@
     </section>
     <script src="./script.js"></script>
 </body>
-
 </html>
