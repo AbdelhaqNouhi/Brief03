@@ -187,6 +187,6 @@ function mic(){
     }
 };
 function affichage(){
-    
+    document.getElementById('affichage').style.display='block';
     document.getElementById('affichage').innerHTML='your price is :'+prix;
 }
