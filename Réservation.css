@@ -8,35 +8,61 @@
      rgba(0, 0, 0, 0.658),
      rgba(110, 67, 67, 0.384)
     ),
-    url("pexels-jatin-jangid-8024029.jpg");
+    url("pexels-mihis-alex-21014.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;     
 }
 
 select{
+    color: #14213D;
+    font-size: 14px;
     background-color: #E5E5E5;
-    margin-top: 4%;
+    margin-top: %;
     height: 40px;
-    width: 300px;
-    margin-left: 2%;   
+    width: 200px;
+    margin-left: 1%;   
 }
 option{
     background-color: #E5E5E5;
 }
 #select h2{
-    margin-top: 7%;
+    margin-top: 8%;
     color: #E5E5E5;
     font-size: 33px
-}
-#select h4{
-    color: #E5E5E5;
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 125vh;
     text-align: center;
+    margin-top: 0%;
+}
+#number{
+    background-color: #E5E5E5;
+    margin-top: 4%;
+    height: 40px;
+    width: 200px;
+    margin-left: 1%; 
+}
+#Bottom{
+    color: #FCA311;
+    margin-top: 10%;
+    height: 40px;
+    width: 150px;
+    margin-left: 1%;
+}
+#Bottom:hover{
+    color: #FCA311;    
+}
+#affichage{
+    background-color: #E5E5E5;
+    color: rgb(0, 0, 0);
+    height: 80px;
+    width: 120px;
+    margin-top: 5%;
+    margin-left: 45%;
+
 }

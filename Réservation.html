@@ -33,16 +33,15 @@
 
     <form name="form" class="reserve">
         <div id="select">
-            <h2 id="title1">Booking</h2><br>
-            <h4 id="title2">Please Make your choice</h4>
+            <h2 id="title1">Booking</h2>
             <select name="cars">
                 <option>choice</option>
-                <option>Moto</option>
-                <option>citadine</option>
-                <option>compact</option> 
-                <option>Berline</option>
+                <option value="Moto">Moto</option>
+                <option>Citadine</option>
+                <option>Compact</option> 
                 <option>Utilitaire</option>  
                 <option>Engin de Chantier</option>
+                <option>Berline</option>
                 <option>Camion</option>
             </select>
 
@@ -55,9 +54,14 @@
             </select>
 
             <select name="vitaz">
-                <option>Select your vitaz</option>
                 <option></option>
             </select>
+            <input placeholder="Number of Days" id="number" type="number">
+            
+            <button type="button" id="Bottom">Final Prix</button>
+            <div id="affichage">
+            </div>
+            
         </div>
         
     </form>
